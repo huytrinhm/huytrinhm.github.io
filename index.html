@@ -9,39 +9,36 @@
     <meta property="og:title" content="huytrinhm">
     <meta property="og:site_name" content="huytrinhm">
     <meta property="og:url" content="https://huytrinhm.me/">
-    <meta property="og:description" content="Huy Trinh - a student at High School for the Gifted, currently interested in Web Development, Machine Learning and Cyber Security.">
+    <meta property="og:description"
+        content="Huy Trinh - a student at High School for the Gifted, currently interested in Web Development, Machine Learning and Cyber Security.">
     <meta property="og:type" content="profile">
     <meta property="og:image" content="https://huytrinhm.me/img/og-preview.png">
 
     <title>huytrinhm</title>
 
     <link rel="icon" href="img/index-icon.png">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <section class="intro">
-        <div class="profile-card">
+        <!-- <div class="container"> -->
+        <div class="profile-card" id="info">
             <header>
-                <img src="img/profile-picture.jpg">
-                <h1>Huy Trinh</h1>
-                <h2>Student at <strong><a href="https://ptnk.edu.vn/">High School for the Gifted</a></strong></h2>
-                <div class="profile-card-location">
-                    <span class="profile-card-location__icon">
-                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                            <path
-                                d="M12 2c3.196 0 6 2.618 6 5.602 0 3.093-2.493 7.132-6 12.661-3.507-5.529-6-9.568-6-12.661 0-2.984 2.804-5.602 6-5.602m0-2c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
-                        </svg>
-                    </span>
+                <div class="avatar"><img src="img/profile-picture.jpg"></div>
+                <h1>Huy Trịnh</h1>
+                <h2>Student at <strong><a href="https://ptnk.edu.vn/" target="_blank">High School for the
+                            Gifted</a></strong></h2>
+                <span class="profile-card-location">
+                    📌 Ho Chi Minh City, Vietnam
+                </span>
 
-                    <span class="profile-card-location__txt">
-                        Ho Chi Minh City, Vietnam
-                    </span>
-                </div>
             </header>
 
             <div class="profile-card-social">
-                <a href="mailto:huytrinhm@gmail.com" class="profile-card-social__item mail" target="_blank">
+                <a href="mailto:huytrinhm@gmail.com" class="profile-card-social__item mail" target="_blank"
+                    title="Email">
                     <span class="icon-font">
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                             <path
@@ -51,7 +48,7 @@
                 </a>
 
                 <a href="https://www.linkedin.com/in/huytrinhm/" class="profile-card-social__item linkedin"
-                    target="_blank">
+                    target="_blank" title="LinkedIn">
                     <span class="icon-font">
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                             <path
@@ -61,7 +58,7 @@
                 </a>
 
                 <a href="https://www.facebook.com/minhhuy2005" class="profile-card-social__item facebook"
-                    target="_blank">
+                    target="_blank" title="Facebook">
                     <span class="icon-font">
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                             <path
@@ -70,7 +67,8 @@
                     </span>
                 </a>
 
-                <a href="https://www.instagram.com/_hwi_" class="profile-card-social__item instagram" target="_blank">
+                <a href="https://www.instagram.com/_hwi_" class="profile-card-social__item instagram" target="_blank"
+                    title="Instagram">
                     <span class="icon-font">
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                             <path
@@ -80,7 +78,7 @@
                 </a>
 
                 <a href="https://discordapp.com/users/379130569893740545" class="profile-card-social__item discord"
-                    target="_blank">
+                    target="_blank" title="Discord">
                     <span class="icon-font">
                         <svg class="icon" viewBox="0 0 71 55" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0)">
@@ -97,7 +95,8 @@
                     </span>
                 </a>
 
-                <a href="https://github.com/huytrinhm" class="profile-card-social__item github" target="_blank">
+                <a href="https://github.com/huytrinhm" class="profile-card-social__item github" target="_blank"
+                    title="Github">
                     <span class="icon-font">
                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                             <path
@@ -106,6 +105,151 @@
                     </span>
                 </a>
             </div>
+        </div>
+        <!-- </div> -->
+    </section>
+    <section class="about">
+        <div class="container">
+            <div class="about-container" id="about">
+                <h2>👋 Hi there!</h2>
+                <p>I'm <strong class="green secondary-font">Huy</strong> - a tech-enthusiast living in <strong
+                        class="red">Vietnam 🇻🇳</strong>.</p>
+                <br>
+                <p>It was on my 8th birthday that I had my first laptop, and since then I have always been fascinated by
+                    the power of <em class="bold">computers and technology</em>. I tried to learn my first "programming
+                    language": <strong class="orange">Scratch</strong>, and luckily won a prize in DXC Codes gamemaking
+                    challenge 😅!</p>
+                <br>
+                <p>With a curious mind and an urge to develop, I soon realised that <strong class="blue">Computer
+                        Science</strong> is my biggest passion. In 2020, I got into the <em
+                        class="bold secondary-font">Class of Informatics</em> at VNU-HCM High School for the Gifted.
+                    Here, I was introduced to the fundamental foundation of CS: Data Structures and Algorithms, Web
+                    Development, Software Development...</p>
+                <br>
+                <p>To put the tools and knowledge that I learned at school into practice, I have worked on many <strong
+                        class="blue">personal projects</strong> covering various topics: websites, games, chatbots,
+                    browser extensions and even artificial intelligence.</p>
+            </div>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="container">
+            <div class="skills-container">
+                <div class="section-title">
+                    <h2>Skills</h2>
+                </div>
+                <div class="skill-table">
+
+                    <div class="skill-column">
+                        <div class="skill-container">
+                            <div class="skill-title">
+                                <div class="skill-icon"><svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
+                                        <path
+                                            d="M3.5 42q-.65 0-1.075-.425Q2 41.15 2 40.5q0-.65.425-1.075Q2.85 39 3.5 39h41q.65 0 1.075.425Q46 39.85 46 40.5q0 .65-.425 1.075Q45.15 42 44.5 42ZM7 36q-1.2 0-2.1-.9Q4 34.2 4 33V9q0-1.2.9-2.1Q5.8 6 7 6h34q1.2 0 2.1.9.9.9.9 2.1v24q0 1.2-.9 2.1-.9.9-2.1.9Zm0-3h34V9H7v24Zm0 0V9v24Z"
+                                            fill="#fff" />
+                                    </svg></div>
+                                <h3><span class="underline underline-orange">Sofware</span><br>Development</h3>
+
+                            </div>
+                            <div class="skill-content">
+                                <p>
+                                    I can make desktop apps (mostly for Windows) and little automation "scripts" to make
+                                    life a bit easier 😁.
+                                </p>
+
+                                <h4>Languages & Technologies</h4>
+                                <div class="chips-container">
+                                    <span class="csharp">C#</span>
+                                    <span class="python">Python</span>
+                                    <span class="winform">Windows Form</span>
+                                    <span class="wpf">WPF</span>
+                                    <span class="xaml">XAML</span>
+                                    <span class="tkinter">Tkinter</span>
+                                </div>
+
+                                <h4>Tools</h4>
+                                <div class="chips-container">
+                                    <span class="vs">Visual Studio</span>
+                                    <span class="pe">Process Explorer</span>
+                                    <span class="terminal">Windows Terminal</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-column">
+                        <div class="skill-container">
+                            <div class="skill-title">
+                                <div class="skill-icon"><svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
+                                        <path
+                                            d="M24 44q-4.2 0-7.85-1.575Q12.5 40.85 9.8 38.15q-2.7-2.7-4.25-6.375Q4 28.1 4 23.9t1.55-7.825Q7.1 12.45 9.8 9.75t6.35-4.225Q19.8 4 24 4q4.2 0 7.85 1.525Q35.5 7.05 38.2 9.75q2.7 2.7 4.25 6.325Q44 19.7 44 23.9t-1.55 7.875Q40.9 35.45 38.2 38.15t-6.35 4.275Q28.2 44 24 44Zm0-2.9q1.75-1.8 2.925-4.125Q28.1 34.65 28.85 31.45H19.2q.7 3 1.875 5.4Q22.25 39.25 24 41.1Zm-4.25-.6q-1.25-1.9-2.15-4.1-.9-2.2-1.5-4.95H8.6Q10.5 35 13 37.025q2.5 2.025 6.75 3.475Zm8.55-.05q3.6-1.15 6.475-3.45 2.875-2.3 4.625-5.55h-7.45q-.65 2.7-1.525 4.9-.875 2.2-2.125 4.1Zm-20.7-12h7.95q-.15-1.35-.175-2.425-.025-1.075-.025-2.125 0-1.25.05-2.225.05-.975.2-2.175h-8q-.35 1.2-.475 2.15T7 23.9q0 1.3.125 2.325.125 1.025.475 2.225Zm11.05 0H29.4q.2-1.55.25-2.525.05-.975.05-2.025 0-1-.05-1.925T29.4 19.5H18.65q-.2 1.55-.25 2.475-.05.925-.05 1.925 0 1.05.05 2.025.05.975.25 2.525Zm13.75 0h8q.35-1.2.475-2.225Q41 25.2 41 23.9q0-1.3-.125-2.25T40.4 19.5h-7.95q.15 1.75.2 2.675.05.925.05 1.725 0 1.1-.075 2.075-.075.975-.225 2.475Zm-.5-11.95h7.5q-1.65-3.45-4.525-5.75Q32 8.45 28.25 7.5q1.25 1.85 2.125 4t1.525 5Zm-12.7 0h9.7q-.55-2.65-1.85-5.125T24 7q-1.6 1.35-2.7 3.55-1.1 2.2-2.1 5.95Zm-10.6 0h7.55q.55-2.7 1.4-4.825.85-2.125 2.15-4.125-3.75.95-6.55 3.2T8.6 16.5Z"
+                                            fill="#fff" />
+                                    </svg></path>
+                                    </svg></div>
+                                <h3><span class="underline underline-blue">Web</span><br>Development</h3>
+
+                            </div>
+                            <div class="skill-content">
+                                <p>
+                                    I mainly create websites, browser extensions, Discord and Messenger Chatbots.
+                                </p>
+
+                                <h4>Languages & Technologies</h4>
+                                <div class="chips-container">
+                                    <span class="html">HTML</span>
+                                    <span class="css">CSS</span>
+                                    <span class="js">JavaScript</span>
+                                    <span class="ts">TypeScript</span>
+                                    <span class="node">NodeJS</span>
+                                    <span class="firebase">Firebase</span>
+                                    <span class="mongo">MongoDB</span>
+                                    <span class="bootstrap">Bootstrap</span>
+                                    <span class="jquery">JQuery</span>
+                                </div>
+
+                                <h4>Tools</h4>
+                                <div class="chips-container">
+                                    <span class="git">Git</span>
+                                    <span class="vscode">VSCode</span>
+                                    <span class="sublime">Sublime Text</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-column">
+                        <div class="skill-container">
+                            <div class="skill-title">
+                                <div class="skill-icon"><svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
+                                        <path
+                                            d="M12 44v-8.6q-2.85-2.6-4.425-6.075Q6 25.85 6 22q0-7.5 5.25-12.75T24 4q6.25 0 11.075 3.675Q39.9 11.35 41.35 17.25l2.75 10.9q.2.7-.25 1.275t-1.2.575H38v7q0 1.25-.875 2.125T35 40h-5v4h-3v-7h8V27h5.7l-2.25-9q-1.2-4.85-5.25-7.925T24 7q-6.25 0-10.625 4.325T9 21.9q0 3.2 1.325 6.1 1.325 2.9 3.725 5.15l.95.9V44Zm12.85-18.5Zm-2.4 3.8h3l.15-2.2q.6-.1 1.125-.425.525-.325.925-.725l2.1.7 1.4-2.4-1.5-1.2q.25-.7.25-1.45t-.25-1.45l1.5-1.2-1.4-2.4-2.1.7q-.4-.4-.95-.7-.55-.3-1.1-.45l-.15-2.2h-3l-.15 2.2q-.55.15-1.1.45-.55.3-.95.7l-2.1-.7-1.4 2.4 1.5 1.2q-.25.7-.25 1.45t.25 1.45l-1.5 1.2 1.4 2.4 2.1-.7q.4.4.925.725.525.325 1.125.425Zm1.5-4.2q-1.45 0-2.475-1.025Q20.45 23.05 20.45 21.6q0-1.45 1.025-2.475Q22.5 18.1 23.95 18.1q1.45 0 2.475 1.025Q27.45 20.15 27.45 21.6q0 1.45-1.025 2.475Q25.4 25.1 23.95 25.1Z"
+                                            fill="#fff" />
+                                    </svg></div>
+                                <h3><span class="underline underline-green">Artificial</span><br>Intelligence</h3>
+
+                            </div>
+                            <div class="skill-content">
+                                <p>
+                                    Beep... Boop... 🤖
+                                </p>
+
+                                <h4>Languages & Technologies</h4>
+                                <div class="chips-container">
+                                    <span class="python">Python</span>
+                                    <span class="numpy">numpy</span>
+                                    <span class="scikit">scikit-learn</span>
+                                    <span class="pytorch">pytorch</span>
+                                    <span class="cnn">CNN</span>
+                                </div>
+
+                                <h4>Tools</h4>
+                                <div class="chips-container">
+                                    <span class="jupyter">Jupyter Notebook</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </section>
 </body>
