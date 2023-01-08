@@ -1,4 +1,4 @@
-window.history.replaceState(null, document.title, document.location.hash);
+window.history.replaceState(null, document.title, "/" + document.location.hash);
 
 let isShowMore = false;
 const showMore = document.querySelector(".more-button");
