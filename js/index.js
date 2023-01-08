@@ -1,6 +1,4 @@
-if(/^\?fbclid=/.test(location.search))
-  location.replace(location.href.replace(/\?fbclid.+/, ""));
-
+window.history.replaceState(null, document.title, document.location.hash);
 
 let isShowMore = false;
 const showMore = document.querySelector(".more-button");
