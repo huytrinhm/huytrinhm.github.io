@@ -1,3 +1,7 @@
+if(/^\?fbclid=/.test(location.search))
+  location.replace(location.href.replace(/\?fbclid.+/, ""));
+
+
 let isShowMore = false;
 const showMore = document.querySelector(".more-button");
 const otherProjects = document.querySelectorAll(".projects-grid > li");
